@@ -18,7 +18,7 @@ class clo extends Controller
 		$responseBody = $response->getBody()->getContents();
 		$apiResponse = json_decode($responseBody, true);
 		
-		echo '<h3 align="center">Enterprise Aplication INtegraton</h3>
+		echo '<h3 align="center">Enterprise Aplication Integraton</h3>
 			  <p align="center"> the moviedb.org API Integration using Laravel </p>
 		';
 		
